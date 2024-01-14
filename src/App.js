@@ -68,8 +68,12 @@ const App = () => {
         </button>
       </div>
       <div className="max-w-lg flex my-4">
-        <img className="pr-4" src={imagePath} alt="original" />
-        <img src={processedImage} alt="processed" />
+        {imagePath && (
+          <img className="pr-4" src={imagePath} alt="original" />
+        )}
+        {processedImage && (
+          <img src={processedImage} alt="processed" />
+        )}
       </div>
 
       <div className="mt-4">
