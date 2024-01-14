@@ -1,4 +1,4 @@
-since the goal of the task is critical thinking, i will share with you my thought process and how i approached the problem.
+since the goal of the task is critical thinking, i will share with you my thought process and how i approached the problem, and it's also the reason why i didn't spent too much time on styling.
 
 first i used tesseract library but i didn't like the results, so i thought of preprocessing the image, which led me down the rabbit hole of image processing and computer vision.
 
@@ -13,6 +13,8 @@ however what i found really impacts the results is the quality of the image, the
    Property: Value
    ```
 i will attach a couple of sample cards that i used.
+
+just import the image, and then click the `OCR` button, you will see the processed image and the relevant data extracted below inside of text inputs.
 
 i hope you find my solution useful, and i'm looking forward to hearing from you.
 
